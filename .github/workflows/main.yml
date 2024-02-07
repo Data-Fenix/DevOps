@@ -39,7 +39,6 @@ jobs:
         uses: psf/black@stable
         with:
           options: "--pyi --safe --verbose"
-          src: "./src"
           jupyter: true
           
       # Ruff linter execution
